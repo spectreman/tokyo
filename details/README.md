@@ -11,7 +11,7 @@ package main
 
 import (
   "fmt"
-  "github.com/enova/tokyo/src/details"
+  "github.com/spectreman/tokyo/details"
 )
 
 func main() {

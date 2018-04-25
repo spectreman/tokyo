@@ -3,11 +3,12 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/enova/tokyo/src/alert"
-	"github.com/enova/tokyo/src/args"
-	"github.com/enova/tokyo/src/lax"
 	"os"
 	"strings"
+
+	"github.com/spectreman/tokyo/alert"
+	"github.com/spectreman/tokyo/args"
+	"github.com/spectreman/tokyo/lax"
 )
 
 func main() {

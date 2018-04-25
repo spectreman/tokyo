@@ -3,10 +3,11 @@ package cfg
 import (
 	"bufio"
 	"fmt"
-	"github.com/enova/tokyo/src/set"
-	"github.com/mgutz/ansi"
 	"os"
 	"strings"
+
+	"github.com/mgutz/ansi"
+	"github.com/spectreman/tokyo/set"
 )
 
 type entry struct {

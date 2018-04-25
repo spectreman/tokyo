@@ -6,9 +6,6 @@ package lax
 import (
 	"bytes"
 	"fmt"
-	"github.com/enova/tokyo/src/alert"
-	"github.com/kardianos/osext"
-	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"os"
 	"os/user"
@@ -19,6 +16,10 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/kardianos/osext"
+	"github.com/spectreman/tokyo/alert"
+	"gopkg.in/yaml.v2"
 )
 
 // StackTrace returns a string containing stack-trace information up to the supplied
