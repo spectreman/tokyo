@@ -86,7 +86,7 @@ Example code to interact with the above:
 import (
   "io/ioutil"
 
-  "github.com/enova/tokyo/src/jwalker"
+  "github.com/spectreman/tokyo/jwalker"
 )
 
 func main() {

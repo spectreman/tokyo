@@ -2,11 +2,12 @@ package cfg
 
 import (
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"
 	"os/exec"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 // Code holds a block of code
@@ -40,7 +41,7 @@ func (c *Code) Run() error {
 	// Header
 	header := Code{}
 	header.Add(`package main`)
-	header.Add(`import "github.com/enova/tokyo/src/cfg"`)
+	header.Add(`import "github.com/spectreman/tokyo/cfg"`)
 	header.Add(``)
 	header.Add(`func main() {`)
 

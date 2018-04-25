@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/enova/tokyo/src/cfg"
+	"github.com/spectreman/tokyo/cfg"
 )
 
 // Globals

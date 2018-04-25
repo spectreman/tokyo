@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/enova/tokyo/src/cfg"
 	"github.com/getsentry/raven-go"
+	"github.com/spectreman/tokyo/cfg"
 )
 
 // MaxSentryPerHour limits the number of messages sent to Sentry

@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/net/ipv4"
 
-	"github.com/enova/tokyo/src/cfg"
+	"github.com/spectreman/tokyo/cfg"
 )
 
 /////////////////////////

@@ -8,7 +8,7 @@ With no configuration:
 package main
 
 import (
-  "github.com/enova/tokyo/src/alert"
+  "github.com/spectreman/tokyo/alert"
 )
 
 func main() {
@@ -19,7 +19,7 @@ func main() {
 }
 ```
 
-To enable confugration, the `alert` package must be used in conjunction with the config pacakge [cfg](https://github.com/enova/tokyo/src/cfg).
+To enable confugration, the `alert` package must be used in conjunction with the config pacakge [cfg](https://github.com/spectreman/tokyo/cfg).
 In your config file, include an `Alert` section:
 
 ```
@@ -43,8 +43,8 @@ In your application you must call `alert.Set()` to configure alerts:
 package main
 
 import (
-  "github.com/enova/tokyo/src/alert"
-  "github.com/enova/tokyo/src/cfg"
+  "github.com/spectreman/tokyo/alert"
+  "github.com/spectreman/tokyo/cfg"
 )
 
 func main() {
@@ -151,7 +151,7 @@ and add your instance using `alert.AddHandler()`. Here is a complete example:
 package main
 
 import (
-  "github.com/enova/tokyo/src/alert"
+  "github.com/spectreman/tokyo/alert"
 )
 
 type MyLogger struct {}

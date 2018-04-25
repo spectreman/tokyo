@@ -2,10 +2,11 @@ package spawn
 
 import (
 	"fmt"
-	"github.com/enova/tokyo/src/alert"
 	"os"
 	"os/exec"
 	"sync"
+
+	"github.com/spectreman/tokyo/alert"
 )
 
 // Spawner spawns a set of commands only N at a time. If N is zero, it
