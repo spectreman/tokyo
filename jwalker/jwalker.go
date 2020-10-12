@@ -256,6 +256,11 @@ func (w *W) AtS(i int) (string, bool) {
 	return w.At(i).S()
 }
 
+// Obj returns a pointer to the internal object
+func (w *W) Obj() interface{} {
+	return w.obj
+}
+
 // AppendLocation ...
 func (w *W) appendLocation(l string) {
 
